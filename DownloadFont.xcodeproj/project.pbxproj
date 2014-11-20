@@ -138,6 +138,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Apple, Inc.";
+				TargetAttributes = {
+					5D904A6216A49D1800BB5B1A = {
+						DevelopmentTeam = CGB6LN9BH6;
+					};
+				};
 			};
 			buildConfigurationList = 5D904A5E16A49D1800BB5B1A /* Build configuration list for PBXProject "DownloadFont" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -259,6 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DownloadFont/DownloadFont-Prefix.pch";
@@ -275,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DownloadFont/DownloadFont-Prefix.pch";
